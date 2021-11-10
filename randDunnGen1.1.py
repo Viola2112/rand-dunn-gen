@@ -27,10 +27,7 @@ class RoomError(MyError):
     def __init__(self,message):
         self.message = message
 
-class AlexError(MyError): # Put in here as joke
 
-    def __init__(self,message):
-        self.message = message
 
 def duplicates(element,aList): # returns True if duplicates of element in aList
     numElement = 0 
