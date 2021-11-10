@@ -73,10 +73,6 @@ class RoomError(MyError):
     def __init__(self,message):
         self.message = message
 
-class AlexError(MyError): # Put in here as joke
-
-    def __init__(self,message):
-        self.message = message
 
 class Danger(MyError):
     def __init__(self,message):
